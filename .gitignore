@@ -22,7 +22,6 @@ _site
 *.tar
 *.zip
 *.lock
-node_modules
 
 # Logs and databases #
 ######################
@@ -40,3 +39,7 @@ node_modules
 ehthumbs.db
 Thumbs.db
 
+# Misc #
+######################
+node_modules
+keys.js
