@@ -42,4 +42,4 @@ Thumbs.db
 # Misc #
 ######################
 node_modules
-keys.js
+dev.js
