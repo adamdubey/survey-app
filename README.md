@@ -42,7 +42,7 @@ npm run start
 
 ## Deployments
 
-_More comming soon..._
+`$ git push heroku master`
 
 ## Technologies & Frameworks
 
