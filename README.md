@@ -1,6 +1,6 @@
-# surveyd-server
+# surveyd-app
 
-Backend server for `surveyd` app.
+A large feedback-collection app.
 
 ## Overview
 
@@ -21,13 +21,28 @@ Backend server for `surveyd` app.
 
 ## Quick Start
 
+**Backend:**
 Localhost development:
 
 ```
 npm install
-npm run dev
-# open localhost:5000 in web browser
+npm run dev # NOTE: This will run both `client` & `server`
+# open localhost:3000 in web browser
 ```
+
+**Frontend:**
+
+Localhost development:
+
+```
+npm install
+npm run start
+# open localhost:3000 in web browser
+```
+
+## Deployments
+
+_More comming soon..._
 
 ## Technologies & Frameworks
 
@@ -38,3 +53,15 @@ npm run dev
 - [Heroku]()
 - [OAuth]()
 - [Passport]()
+- [Create React App]()
+- [React]()
+- [Redux]()
+- [Materialize]()
+- [Babel]()
+- [Webpack]()
+- [Axios]()
+- [Docker]()
+- [Kubernetes]()
+- [Jenkins]()
+- [Travis CI]()
+- [AWS]()
