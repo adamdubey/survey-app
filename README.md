@@ -64,7 +64,6 @@ _More comming soon..._
 - [Kubernetes]()
 - [Jenkins]()
 - [Travis CI]()
-- [AWS]()
 - [Stripe]()
 - [React Stripe Component]()
 - [ES2015]()
