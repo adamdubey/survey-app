@@ -44,6 +44,13 @@ npm run start
 
 `$ git push heroku master`
 
+## Environments
+
+Dev/QA: `localhost`
+Prod: `https://secure-forest-73972.herokuapp.com/`
+
+Each target endpoint has thier own unique sets of keys.
+
 ## Technologies & Frameworks
 
 - [Node]()
@@ -67,3 +74,4 @@ npm run start
 - [Stripe]()
 - [React Stripe Component]()
 - [ES2015]()
+- [SendGrid]()
