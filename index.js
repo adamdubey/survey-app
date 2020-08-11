@@ -7,6 +7,7 @@ const bodyParser = require("body-parser");
 
 // NOTE: The order of these matters; DO NOT CHANGE!!!
 require("./models/User");
+require("./models/Survey");
 require("./services/passport");
 
 mongoose.connect(keys.mongoURI);
@@ -26,6 +27,7 @@ app.use(passport.session());
 // route handlers
 require("./routes/authRoutes")(app);
 require("./routes/billingRoutes")(app);
+require("./routes/surveyRoutes")(app);
 
 // production routing
 if (process.env.NODE_ENV === "production") {
