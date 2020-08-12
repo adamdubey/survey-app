@@ -41,7 +41,7 @@ class Header extends Component {
           >
             Surveyd
           </Link>
-          <ul className="right hide-on-med-and-down">{this.renderContent()}</ul>
+          <ul className="right">{this.renderContent()}</ul>
         </div>
       </nav>
     );
