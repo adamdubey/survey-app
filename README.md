@@ -40,6 +40,16 @@ npm run start
 # open localhost:3000 in web browser
 ```
 
+To setup Ngrok for webhook development/testing:
+
+```
+# open a new terminal tab/window
+npx ngrok http 5000
+# cp ngrok address into SendGrid configuration dashboard:
+# Dashboard>Settings>Mail Settings>Event Webhook
+# ex: http://3b015e41cb2a.ngrok.io/api/surveys/webhooks
+```
+
 ## Deployments
 
 `$ git push heroku master`
@@ -76,3 +86,4 @@ Each target endpoint has thier own unique sets of keys.
 - [ES2015]()
 - [SendGrid]()
 - [Redux-Form]()
+- [Ngrok]()
